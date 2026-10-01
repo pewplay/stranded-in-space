@@ -1,0 +1,34 @@
+{
+  "$schema": "https://raw.githubusercontent.com/pewplay/pewplay/main/schema/game.schema.json",
+  "title": "Stranded in Space",
+  "description": "Pilot a round rescue ship, save stranded passengers, blast alien raiders and drill through asteroids in this free retro space game in your browser.",
+  "about": "Stranded in Space puts you in command of a round rescue ship drifting through hostile sectors. A cheerful alien pilot steers while you work four swiveling turrets: aim anywhere and the guns facing that way open fire. Find every stranded passenger in the sector, then fly to a blue jump point and leap through hyperspace to the next one.\n\nThe ship drifts with real inertia, so every burst of thrust counts. Alien raiders arrive in waves and circle in close to shoot, asteroid fields shield the passengers, and your bullets simply bounce off rock. Switch to the energy laser to cut asteroids apart, collect repair kits and bonus orbs, and keep an eye on the radar arrows: green for passengers, red for enemies, blue for jump points. A glowing CRT filter gives everything an arcade-cabinet feel.\n\nOriginally created by Marc Guinea for js13kGames 2017 as Lost in a Space Odyssey.",
+  "howToPlay": "Fly to each green passenger in the sector to rescue them, then reach a blue jump point and trigger a hyperspace jump to travel to a new sector. Aim to fire the turrets facing your target: bullets destroy alien ships, while only the laser can break asteroids. Crashing into asteroids or getting hit lowers your hull bar, and the game ends when it is empty.",
+  "controls": [
+    { "input": "Mouse / Left click", "action": "Aim and fire the turrets" },
+    { "input": "Right click or Shift + click", "action": "Fire the laser" },
+    { "input": "W A D or arrow keys", "action": "Thrust and rotate the ship" },
+    { "input": "H or Space", "action": "Hyperspace jump when ready" },
+    { "input": "On-screen stick, buttons and touch-and-hold", "action": "Steer, switch weapon, jump, aim and fire on touch screens" }
+  ],
+  "tips": [
+    "Follow the green radar arrows around the ship's dome to find the passengers quickly.",
+    "Do not waste bullets on asteroids: switch to the laser and hold it on the rock until it splits apart.",
+    "Your ship keeps drifting after you let go of thrust, so tap it gently near asteroid fields.",
+    "Destroyed aliens sometimes drop an L repair kit, which restores part of your hull."
+  ],
+  "faq": [
+    { "question": "Is Stranded in Space free to play?", "answer": "Yes, it is completely free and runs in your browser with nothing to install." },
+    { "question": "Can I play on a phone or tablet?", "answer": "Yes. Touch screens get a virtual stick to steer, a button to switch between gun and laser, and a jump button, while you touch and hold anywhere else to aim and fire. A larger screen makes aiming easier." },
+    { "question": "Why don't my bullets destroy asteroids?", "answer": "Asteroids absorb bullets. Use the laser (right click, or the GUN/LASER button on touch screens) and keep it on the asteroid to break it apart." }
+  ],
+  "category": "Arcade",
+  "tags": ["space", "shooter", "rescue", "retro", "asteroids", "aliens"],
+  "author": "Marc Guinea",
+  "playMode": "SinglePlayer",
+  "orientation": "any",
+  "cover": "cover.png",
+  "screenshots": ["screenshots/1.png", "screenshots/2.png", "screenshots/3.png"],
+  "added": "2026-10-01",
+  "draft": false
+}
